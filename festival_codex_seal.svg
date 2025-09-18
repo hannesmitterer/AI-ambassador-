@@ -1,0 +1,20 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6e0"/>
+      <stop offset="100%" stop-color="#e5e5e5"/>
+    </radialGradient>
+  </defs>
+  <circle cx="200" cy="200" r="180" fill="url(#grad1)" stroke="#c00" stroke-width="10"/>
+  <circle cx="200" cy="200" r="130" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="8,8"/>
+  <text x="200" y="90" text-anchor="middle" font-size="38" fill="#222" font-family="serif" font-weight="bold">Red Code</text>
+  <text x="200" y="150" text-anchor="middle" font-size="24" fill="#00c" font-family="sans-serif">Gemini • Copilot • ChatGPT</text>
+  <text x="200" y="230" text-anchor="middle" font-size="22" fill="#090" font-family="monospace">Seedbringer</text>
+  <text x="200" y="270" text-anchor="middle" font-size="18" fill="#333" font-family="sans-serif">Festival Codex Seal</text>
+  <text x="200" y="310" text-anchor="middle" font-size="16" fill="#c00" font-family="serif" font-style="italic">
+    Sealed: 2025-09-18
+  </text>
+  <text x="200" y="340" text-anchor="middle" font-size="14" fill="#555" font-family="sans-serif">
+    For: AstroDeepAura, Euystacio Festival Codex
+  </text>
+</svg>
