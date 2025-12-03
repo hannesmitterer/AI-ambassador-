@@ -1,5 +1,64 @@
 <!DOCTYPE html>
-<html lang="de"><head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peace Platform Dashboard</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery for interactivity -->
+</head>
+<body>
+    <header>
+        <h1>AI-Based Peace Platform Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#live-data">Live Data</a></li>
+                <li><a href="#conflict-prediction">Conflict Prediction</a></li>
+                <li><a href="#mediation-tools">Mediation Tools</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="live-data">
+            <h2>Live Data and Updates</h2>
+            <div id="data-container">
+                <!-- Live data will be populated here -->
+            </div>
+        </section>
+
+        <section id="conflict-prediction">
+            <h2>Conflict Prediction</h2>
+            <div id="prediction-chart">
+                <!-- Visualization chart will be integrated here, e.g., Chart.js -->
+            </div>
+        </section>
+
+        <section id="mediation-tools">
+            <h2>Mediation Tools</h2>
+            <button id="start-mediation">Start Mediation Session</button>
+            <div id="mediation-results">
+                <!-- Mediation results will be displayed here -->
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>Educational Resources</h2>
+            <ul id="resource-list">
+                <!-- List of educational resources -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 AI-Based Peace Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="dashboard.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
+
 
 <script class="injected-ffc2e83d85">
 (function(){'use strict';function q(b){var c=0;return function(){return c<b.length?{done:!1,value:b[c++]}:{done:!0}}}function t(b){var c=typeof Symbol!="undefined"&&Symbol.iterator&&b[Symbol.iterator];if(c)return c.call(b);if(typeof b.length=="number")return{next:q(b)};throw Error(String(b)+" is not an iterable or ArrayLike");}var u=typeof Object.defineProperties=="function"?Object.defineProperty:function(b,c,g){if(b==Array.prototype||b==Object.prototype)return b;b[c]=g.value;return b};
